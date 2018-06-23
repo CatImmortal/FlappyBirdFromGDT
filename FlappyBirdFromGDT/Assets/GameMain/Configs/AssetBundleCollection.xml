@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <AssetBundleCollection>
+    <AssetBundles>
+      <AssetBundle Name="Animation" LoadType="0" Packed="True" />
+      <AssetBundle Name="Configs" LoadType="0" Packed="True" />
+      <AssetBundle Name="DataTables" LoadType="0" Packed="True" />
+      <AssetBundle Name="Entities" LoadType="0" Packed="True" />
+      <AssetBundle Name="Music" LoadType="0" Packed="True" />
+      <AssetBundle Name="Scenes" LoadType="0" Packed="True" />
+      <AssetBundle Name="Sound" LoadType="0" Packed="True" />
+      <AssetBundle Name="Textures" LoadType="0" Packed="True" />
+      <AssetBundle Name="UI/UIForms" LoadType="0" Packed="True" />
+      <AssetBundle Name="UI/UISounds" LoadType="0" Packed="True" />
+      <AssetBundle Name="UI/UISprites" LoadType="0" Packed="True" />
+    </AssetBundles>
+    <Assets>
+      <Asset Guid="0529cb38f409a6f4bab36393d5b2c4a9" AssetBundleName="Textures" />
+      <Asset Guid="0debf5bd31a86624e90e69cde2eb73a3" AssetBundleName="UI/UISprites" />
+      <Asset Guid="101b4665ee650604d876507bddc8a468" AssetBundleName="Music" />
+      <Asset Guid="2db38e2db527421428d1c79e85c21479" AssetBundleName="UI/UISprites" />
+      <Asset Guid="36029cc8c02c43c4e96db70e5e88250a" AssetBundleName="DataTables" />
+      <Asset Guid="36883d31bcc88a049b2b0f6129d79df8" AssetBundleName="Textures" />
+      <Asset Guid="44b2e9203a42fcb44bdbf21bac3dddc8" AssetBundleName="UI/UISprites" />
+      <Asset Guid="47f6fcfe01ecef04a8067b26b698e988" AssetBundleName="Sound" />
+      <Asset Guid="5306eb985e1bc9e458f3c201f974f17f" AssetBundleName="UI/UIForms" />
+      <Asset Guid="546e2733144f0c840b96f13f68f739e4" AssetBundleName="DataTables" />
+      <Asset Guid="56d01a69782409e49adbec12f0a9b0a9" AssetBundleName="UI/UIForms" />
+      <Asset Guid="5fecd0782975dfb46a5f73749255456e" AssetBundleName="Music" />
+      <Asset Guid="65916bcec87e66249a4536d0561feaff" AssetBundleName="Sound" />
+      <Asset Guid="69d000617f360094ca37c4ddea46e08d" AssetBundleName="Textures" />
+      <Asset Guid="785516b89e60d704fb449b292e6eb8db" AssetBundleName="UI/UISprites" />
+      <Asset Guid="7a4f6386c03c450469e82f8852fc8483" AssetBundleName="Sound" />
+      <Asset Guid="847f8869efece304e91946dc392f46a2" AssetBundleName="Animation" />
+      <Asset Guid="8a61d6b2fa32deb4893940ba98441f10" AssetBundleName="Entities" />
+      <Asset Guid="947c61c0b03e4cb40b55f986075ba9d0" AssetBundleName="UI/UIForms" />
+      <Asset Guid="9577a85aaa913624abf50fcf7930a095" AssetBundleName="UI/UIForms" />
+      <Asset Guid="968ee2d27e40567488eca39e2e65172b" AssetBundleName="Scenes" />
+      <Asset Guid="96c001f5f5b854d45b6e2367abbc5433" AssetBundleName="DataTables" />
+      <Asset Guid="9d81433c0a3ec3c48b9c9dfe18bc14fe" AssetBundleName="DataTables" />
+      <Asset Guid="a4aa454c0f14564418e908b8ed7f9522" AssetBundleName="UI/UIForms" />
+      <Asset Guid="b180933523278ae4fba8260b8f1cb6cd" AssetBundleName="UI/UISounds" />
+      <Asset Guid="b6489951e7a02b347aa98738559a2a68" AssetBundleName="UI/UISprites" />
+      <Asset Guid="bbe2caeb7d1de7d4cbf65a2d7007759a" AssetBundleName="DataTables" />
+      <Asset Guid="c50012f79cd3f8844a45eef7bd66d58d" AssetBundleName="Configs" />
+      <Asset Guid="cb39d2658b7e5b1449559114c7249917" AssetBundleName="Scenes" />
+      <Asset Guid="cc7bf359599abf943afaea887d37ec54" AssetBundleName="UI/UISprites" />
+      <Asset Guid="ccec614f07e84de4199f63400b54c81b" AssetBundleName="UI/UISprites" />
+      <Asset Guid="d3f2d8597758e62429c3f1549d234a92" AssetBundleName="Entities" />
+      <Asset Guid="e7fc910ea9c9f48469fa55904ad37979" AssetBundleName="Entities" />
+      <Asset Guid="ebb672bd4a92b2a47a3fdbea9cfc85fa" AssetBundleName="Animation" />
+      <Asset Guid="f76e3b650bbdc45478114df1c26feabe" AssetBundleName="DataTables" />
+      <Asset Guid="f832f8e9056c43043803964592fe09d9" AssetBundleName="Entities" />
+      <Asset Guid="f9da7582158c99446a4129986abe9340" AssetBundleName="UI/UISprites" />
+    </Assets>
+  </AssetBundleCollection>
+</UnityGameFramework>
