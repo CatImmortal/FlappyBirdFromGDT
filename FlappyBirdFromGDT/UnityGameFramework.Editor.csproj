@@ -353,16 +353,16 @@
       <HintPath>C:/Program Files/Unity2018.1.0f2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="GameFramework">
-      <HintPath>D:/UnityProjects/FlappyBirdFromGDT/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
+      <HintPath>D:/GitHub/FlappyBirdFromGDT/FlappyBirdFromGDT/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:/UnityProjects/FlappyBirdFromGDT/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:/GitHub/FlappyBirdFromGDT/FlappyBirdFromGDT/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>D:/UnityProjects/FlappyBirdFromGDT/Assets/GameMain/Libraries/LitJson.dll</HintPath>
+      <HintPath>D:/GitHub/FlappyBirdFromGDT/FlappyBirdFromGDT/Assets/GameMain/Libraries/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>D:/UnityProjects/FlappyBirdFromGDT/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
+      <HintPath>D:/GitHub/FlappyBirdFromGDT/FlappyBirdFromGDT/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/HASEE/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>

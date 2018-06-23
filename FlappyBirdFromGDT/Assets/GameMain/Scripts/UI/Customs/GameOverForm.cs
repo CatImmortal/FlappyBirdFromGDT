@@ -30,7 +30,7 @@ namespace FlappyBirdFromGDT
 
         public void OnRestartButtonClick()
         {
-            Close();
+            Close(true);
             //派发重新开始游戏事件
             GameEntry.Event.Fire(this, ReferencePool.Acquire<RestartEventArgs>());
             GameEntry.Entity.ShowBird(new BirdData(GameEntry.Entity.GenerateSerialId(), 3, 5f));
