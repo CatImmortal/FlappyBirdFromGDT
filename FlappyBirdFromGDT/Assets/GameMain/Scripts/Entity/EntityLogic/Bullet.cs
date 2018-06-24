@@ -58,6 +58,7 @@ namespace FlappyBirdFromGDT
         private void OnTriggerEnter2D(Collider2D collision)
         {
             //隐藏管道与自身
+            GameEntry.Sound.PlaySound(1);
             collision.gameObject.SetActive(false);
             GameEntry.Entity.HideEntity(this);
 

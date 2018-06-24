@@ -40,7 +40,6 @@ namespace FlappyBirdFromGDT
 
             //订阅事件
             GameEntry.Event.Subscribe(ReturnMenuEventArgs.EventId, OnReturnMenu);
-           
         }
 
         protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
@@ -74,14 +73,13 @@ namespace FlappyBirdFromGDT
             GameEntry.UI.CloseUIForm(scoreFormId);
             //取消订阅事件
             GameEntry.Event.Unsubscribe(ReturnMenuEventArgs.EventId, OnReturnMenu);
-          
         }
 
         private void OnReturnMenu(object sender,GameEventArgs e)
         {
             isReturnMenu = true;
         }
-       
+
 
     }
 }

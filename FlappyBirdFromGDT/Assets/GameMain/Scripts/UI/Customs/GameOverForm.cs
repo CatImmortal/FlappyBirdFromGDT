@@ -36,7 +36,6 @@ namespace FlappyBirdFromGDT
 
             //显示小鸟与管道
             GameEntry.Entity.ShowBird(new BirdData(GameEntry.Entity.GenerateSerialId(), 3, 5f));
-            GameEntry.Entity.ShowPipe(new PipeData(GameEntry.Entity.GenerateSerialId(), 2, 1f));
         }
 
         public void OnReturnButtonClick()
