@@ -1,4 +1,5 @@
 ﻿using GameFramework;
+using GameFramework.Event;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,6 +24,9 @@ namespace FlappyBirdFromGDT
 
             CachedTransform.SetLocalScaleX(1.8f);
             CachedTransform.position = m_BulletData.ShootPostion;
+
+            //监听小鸟死亡事件
+            GameEntry.Event.Subscribe(BirdDeadEventArgs.EventId, OnBirdDead);
         }
 
         protected override void OnUpdate(float elapseSeconds, float realElapseSeconds)
@@ -38,11 +42,25 @@ namespace FlappyBirdFromGDT
             }
         }
 
+        protected override void OnHide(object userData)
+        {
+            base.OnHide(userData);
+            //取消监听小鸟死亡事件
+            GameEntry.Event.Unsubscribe(BirdDeadEventArgs.EventId, OnBirdDead);
+        }
+
+        private void OnBirdDead(object sender,GameEventArgs e)
+        {
+            //小鸟死亡后立即隐藏自身
+            GameEntry.Entity.HideEntity(this);
+        }
+
         private void OnTriggerEnter2D(Collider2D collision)
         {
             //隐藏管道与自身
             collision.gameObject.SetActive(false);
             GameEntry.Entity.HideEntity(this);
+
             //派发加分事件
             AddScoreEventArgs e = ReferencePool.Acquire<AddScoreEventArgs>();
             GameEntry.Event.Fire(this, e.Fill(10));

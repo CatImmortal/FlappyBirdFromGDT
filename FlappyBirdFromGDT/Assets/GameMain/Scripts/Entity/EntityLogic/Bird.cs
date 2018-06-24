@@ -69,7 +69,8 @@ namespace FlappyBirdFromGDT
             GameEntry.Entity.HideEntity(this);
             //派发小鸟死亡事件
             GameEntry.Event.Fire(this, ReferencePool.Acquire<BirdDeadEventArgs>());
-           
+
+          
         }
     }
 }

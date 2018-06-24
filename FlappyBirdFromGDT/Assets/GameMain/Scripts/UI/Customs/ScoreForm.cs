@@ -57,7 +57,7 @@ namespace FlappyBirdFromGDT
         private void OnAddScore(object sender,GameEventArgs e)
         {
             AddScoreEventArgs ase = (AddScoreEventArgs)e;
-
+            
             m_Score += ase.AddCount;
             scoreText.text = "总分：" + m_Score;
         }

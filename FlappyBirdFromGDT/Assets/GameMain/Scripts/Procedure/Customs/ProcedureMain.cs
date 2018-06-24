@@ -8,6 +8,9 @@ using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 namespace FlappyBirdFromGDT
 {
+    /// <summary>
+    /// 主要流程
+    /// </summary>
     public class ProcedureMain : ProcedureBase
     {
 
