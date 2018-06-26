@@ -1,3 +1,3 @@
 # FlappyBirdFromGDT
 UGFGameDevelopTemplate的示例程序，
-教程有空会写。
+相关教程地址：https://blog.csdn.net/qq_32821435/article/category/7753219 。
